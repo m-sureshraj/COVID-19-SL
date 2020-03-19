@@ -1,0 +1,40 @@
+{
+  "name": "covid-19-sl",
+  "version": "0.0.1",
+  "description": "CLI application to track Sri Lanka COVID-19 Coronavirus stats",
+  "bin": {
+    "covid": "src/covid.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "",
+    "lint": "eslint '**/*.js'"
+  },
+  "keywords": [
+    "covid-19",
+    "srilanka",
+    "tracker",
+    "cli",
+    "terminal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m-sureshraj/COVID-19-SL.git"
+  },
+  "author": "Sureshraj <m.s.suresh100@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "kleur": "^3.0.3",
+    "node-fetch": "^2.6.0",
+    "ora": "^4.0.3",
+    "terminal-link": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "1.19.1"
+  }
+}

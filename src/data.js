@@ -57,7 +57,7 @@ function dto(stats) {
     lastUpdated: 'N/A',
     districts: [],
     total: {},
-    unspecified: {},
+    unspecified: null,
     summary: {},
   };
 

@@ -30,12 +30,14 @@ function printDistrictStats(stats) {
   });
 
   // unspecified data row
-  districtTable.push([
-    stats.unspecified.name,
-    stats.unspecified.cases,
-    stats.unspecified.recovered,
-    stats.unspecified.deaths,
-  ]);
+  if (stats.unspecified) {
+    districtTable.push([
+      stats.unspecified.name,
+      stats.unspecified.cases,
+      stats.unspecified.recovered,
+      stats.unspecified.deaths,
+    ]);
+  }
 
   districtTable.push(emptyRow);
 

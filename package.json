@@ -1,6 +1,6 @@
 {
   "name": "covid-19-sl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI application to track Sri Lanka COVID-19 Coronavirus stats",
   "bin": {
     "covid": "src/covid.js"
